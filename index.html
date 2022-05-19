@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Ukraine</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
+    background-color: aqua;
+}
+.matrix{
+    display: flex;
+    flex-direction: column;
+    background-color: #e0dcdc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #999;
+    margin-top: 50px;
+
+}
+.row{
+    display: flex;
+}
+.diode{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 5px;
+    background-color: #fff;
+}
+.inp{
+    border-radius: 10px;
+    border: 2px solid black;
+    height: 30px;
+    width: 170px;
+    padding: 0 10px;
+}
+.add{
+    border: none;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="row">
+        <input type="text" id="inp" class="inp">
+        <button class="add" id="add">add</button>
+    </div>
+        <div class="matrix">
+            <div class="row">
+                <div class="diode" id="diode1_1"></div>
+                <div class="diode" id="diode1_2"></div>
+                <div class="diode" id="diode1_3"></div>
+                <div class="diode" id="diode1_4"></div>
+                <div class="diode" id="diode1_5"></div>
+            </div>
+            <div class="row">
+                <div class="diode" id="diode2_1"></div>
+                <div class="diode" id="diode2_2"></div>
+                <div class="diode" id="diode2_3"></div>
+                <div class="diode" id="diode2_4"></div>
+                <div class="diode" id="diode2_5"></div>
+            </div>
+            <div class="row">
+                <div class="diode" id="diode3_1"></div>
+                <div class="diode" id="diode3_2"></div>
+                <div class="diode" id="diode3_3"></div>
+                <div class="diode" id="diode3_4"></div>
+                <div class="diode" id="diode3_5"></div>
+            </div>
+            <div class="row">
+                <div class="diode"id="diode4_1"></div>
+                <div class="diode"id="diode4_2"></div>
+                <div class="diode"id="diode4_3"></div>
+                <div class="diode"id="diode4_4"></div>
+                <div class="diode"id="diode4_5"></div>
+            </div>
+            <div class="row">
+                <div class="diode"id="diode5_1"></div>
+                <div class="diode"id="diode5_2"></div>
+                <div class="diode"id="diode5_3"></div>
+                <div class="diode"id="diode5_4"></div>
+                <div class="diode"id="diode5_5"></div>
+            </div>
+            <div class="row">
+                <div class="diode"id="diode6_1"></div>
+                <div class="diode"id="diode6_2"></div>
+                <div class="diode"id="diode6_3"></div>
+                <div class="diode"id="diode6_4"></div>
+                <div class="diode"id="diode6_5"></div>
+            </div>
+            <div class="row">
+                <div class="diode"id="diode7_1"></div>
+                <div class="diode"id="diode7_2"></div>
+                <div class="diode"id="diode7_3"></div>
+                <div class="diode"id="diode7_4"></div>
+                <div class="diode"id="diode7_5"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
